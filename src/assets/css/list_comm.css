@@ -1,0 +1,91 @@
+.select {
+  margin: 10px;
+  outline: 0;
+  border: 0;
+}
+
+.list {
+  width: 94%;
+  height: 160px;
+  line-height: 30px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  /* border: 1px solid #000; */
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.list .img {
+  float: left;
+  width: 40%;
+  /* border: 1px solid #00f; */
+  border-radius: 8px;
+  margin-right: 14px;
+  overflow: hidden;
+}
+
+.list .img img {
+  width: 200%;
+}
+
+.list .deta {
+  /* border: 1px solid #0ff; */
+  width: 60%;
+}
+
+.list .deta p:first-child {
+  color: #333;
+}
+
+.list .deta .des {
+  color: #ed7b30;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  background-color: #fdf4ec;
+  padding: 1px 5px 2px;
+  border-radius: 3px;
+}
+
+.list .deta p:nth-child(3) {
+  color: #555;
+}
+
+.list .deta .adult_child span:nth-child(2), .list .deta .adult_child span:last-child {
+  float: right;
+}
+
+.list .deta .adult_child span:nth-child(2) {
+  color: #888;
+}
+
+.list .deta .adult_child span:last-child {
+  color: #eb5130;
+  padding-right: 3px;
+  font-size: 21px;
+}
+
+.allSort {
+  margin: 0 10px 0 0;
+}
+
+.allSort .other {
+  /* border: 1px solid #00f; */
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+
+.allSort .other span {
+  /* float: left; */
+  display: inline-block;
+  /* background-color: #f9de4a; */
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 13px;
+  flex-wrap: nowrap;
+  margin-left: 13px;
+}
